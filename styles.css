@@ -5,6 +5,14 @@
   --sq1-dark: #2b2b2b;
 }
 
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--sq1-grey);
+  color: var(--sq1-dark);
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
@@ -320,3 +328,4 @@ footer {
   color: var(--sq1-white);
   margin-top: 2rem;
 }
+
