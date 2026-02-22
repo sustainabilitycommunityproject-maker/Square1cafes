@@ -5,13 +5,13 @@
   --sq1-dark: #2b2b2b;
 }
 
-/* /* GLOBAL */
+/* GLOBAL */
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
   background: var(--sq1-grey);
   color: var(--sq1-dark);
-} */
+}
 
 body {
   margin: 0;
@@ -340,6 +340,7 @@ footer {
     margin-top: 5rem !important; /* force the same spacing on mobile */
   }
 }
+
 
 
 
