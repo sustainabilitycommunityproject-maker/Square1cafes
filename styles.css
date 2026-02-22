@@ -329,3 +329,16 @@ footer {
   margin-top: 2rem;
 }
 
+/* Ensure consistent spacing under fixed navigation bar */
+.hero {
+  margin-top: 5rem; /* desktop spacing */
+}
+
+/* Mobile spacing fix */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 5rem !important; /* force the same spacing on mobile */
+  }
+}
+
+
