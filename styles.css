@@ -390,6 +390,19 @@ footer {
   }
 }
 
+/* Ensure hero never sits under the fixed navigation bar */
+.hero {
+  margin-top: 6rem; /* default for laptops/desktops */
+}
+
+/* Mobile fix: nav is taller, so increase spacing */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 7.5rem !important;
+  }
+}
+
+
 
 
 
