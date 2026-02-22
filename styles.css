@@ -337,9 +337,10 @@ footer {
 /* Mobile spacing fix */
 @media (max-width: 768px) {
   .hero {
-    margin-top: 5rem !important; /* force the same spacing on mobile */
+    margin-top: 3rem !important; /* force the same spacing on mobile */
   }
 }
+
 
 
 
