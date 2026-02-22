@@ -408,6 +408,36 @@ footer {
   }
 }
 
+/* Fix hero being cut off under fixed navigation */
+body {
+  padding-top: 0; /* reset any previous padding */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Automatically create space under the nav */
+.nav {
+  height: auto;
+  padding: 1rem;
+}
+
+main {
+  padding-top: calc(60px + 2rem); /* default desktop spacing */
+}
+
+/* Mobile fix: nav is taller, so increase spacing */
+@media (max-width: 768px) {
+  main {
+    padding-top: calc(110px + 1rem); /* adjusts for stacked mobile nav */
+  }
+}
+
+
 
 
 
