@@ -41,7 +41,7 @@ L.marker([51.505, -0.09]).addTo(map)
 // Clickable cards scroll to section
 document.querySelectorAll('.info-card').forEach(card => {
   card.addEventListener('click', () => {
-    const target = document.querySelectorAll(card.getAttribute('data-scroll'));
+    const target = document.querySelector(card.getAttribute('data-scroll'));
     if (target) {
       window.scrollTo({
         top: target.offsetTop - 70,
@@ -50,6 +50,7 @@ document.querySelectorAll('.info-card').forEach(card => {
     }
   });
 });
+
 
 
 
