@@ -312,6 +312,7 @@ footer {
 /* Mobile fix: nav is taller, so increase spacing */
 @media (max-width: 768px) {
   .hero {
-    margin-top: 7.5rem !important;
+    margin-top: 8rem !important;
   }
 }
+
