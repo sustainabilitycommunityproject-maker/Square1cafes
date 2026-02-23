@@ -13,12 +13,7 @@ body {
   color: var(--sq1-dark);
 }
 
-body {
-  margin: 0;
-  font-family: "Segoe UI", sans-serif;
-  background: var(--sq1-grey);
-  color: var(--sq1-dark);
-}
+
 
 /* NAV */
 header {
@@ -436,6 +431,7 @@ main {
     padding-top: calc(110px + 1rem); /* adjusts for stacked mobile nav */
   }
 }
+
 
 
 
