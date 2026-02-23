@@ -22,7 +22,7 @@ tabs.forEach((tab) => {
     const targetId = tab.getAttribute('data-target');
 
     tabs.forEach((t) => t.classList.remove('active'));
-    panels.forEach((p) => p.classList.remove('active'));
+    // panels.forEach((p) => p.classList.remove('active'));
 
     tab.classList.add('active');
     document.getElementById(targetId).classList.add('active');
@@ -50,4 +50,5 @@ document.querySelectorAll('.info-card').forEach(card => {
     }
   });
 });
+
 
