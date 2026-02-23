@@ -51,6 +51,24 @@ document.querySelectorAll('.info-card').forEach(card => {
   });
 });
 
+// Smooth scroll for all cards
+document.querySelectorAll('.info-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const targetID = card.getAttribute('data-scroll');
+    const target = document.querySelector(targetID);
+
+    if (target) {
+      const offset = 80; // height of your fixed nav
+      const topPos = target.getBoundingClientRect().top + window.scrollY - offset;
+
+      window.scrollTo({
+        top: topPos,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
 
 
 
